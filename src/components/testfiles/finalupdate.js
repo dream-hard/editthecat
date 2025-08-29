@@ -451,7 +451,7 @@ try {
                   <option value="">Select category</option>
   {categories?.map(c => (
     <option key={c.uuid} value={c.uuid}>
-      {c.name}
+      {c.display_name}
     </option>
   ))}
              </select>
