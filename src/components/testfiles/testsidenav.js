@@ -21,7 +21,7 @@ setnestcategories(updated);
           onSelect(item.slug);
         }}
       >
-        <span className="menus-link">{item.name}</span>
+        <span className="menus-link">{item.display_name}</span>
         {item.children && (
           <ul className="submenus">{renderMenu(item.children, level + 1)}</ul>
         )}
