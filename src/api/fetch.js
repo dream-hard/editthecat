@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 const customAxios = axios.create({
-   baseURL:`http://192.168.1.106:3001`,
+   baseURL:`http://cortex-7.com/api`,
    withCredentials:true,
 });
 
