@@ -277,7 +277,7 @@ const handleSubmit = async (e) => {
           <label className="form-label">Category</label>
           <select className="form-select" name="category_id" value={formData.category_id} onChange={handleChange} required>
             <option value="">Select category</option>
-            {categories.map(c => <option key={c.uuid} value={c.uuid}>{c.name}</option>)}
+            {categories.map(c => <option key={c.uuid} value={c.uuid}>{c.display_name}</option>)}
           </select>
         </div>
         <div className="mb-3">
